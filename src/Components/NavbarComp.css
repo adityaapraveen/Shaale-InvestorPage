@@ -1,0 +1,45 @@
+.navbar {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: #000000;
+    color: #fff;
+    padding: 10px 20px;
+    padding-inline: 20px;
+}
+
+.shaale-logo {
+    font-size: 24px;
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.search-box input[type="text"] {
+    padding: 8px;
+    border: none;
+    border-radius: 8px;
+    margin-right: 10px;
+    width: 250px;
+    padding-right: 400px;
+    margin-right: 50px;
+}
+
+.search-icon {
+    font-size: 20px;
+    position: absolute;
+    color: black;
+    right: 58px;
+}
+
+@media only screen and (min-width: 430px) {
+
+    /* For screens larger than 768px (laptops) */
+    .search-box input[type="text"] {
+        width: 250px;
+        /* Adjusted width for laptops */
+    }
+}

@@ -1,0 +1,35 @@
+.accordion-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    /* margin-right: 30rem; */
+}
+
+.add-button {
+    background-color: transparent;
+    border: 2px solid white;
+    /* Add white border */
+    border-radius: 30%;
+    /* Make the button round */
+    cursor: pointer;
+    padding: 10px;
+    /* Adjust padding as needed */
+    margin-left: 30rem;
+}
+
+.add-button:focus {
+    outline: none;
+}
+
+.add-button svg {
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    transition: transform 0.3s ease;
+}
+
+.add-button:hover svg {
+    transform: scale(1.3);
+    /* Increase the size of the icon on hover */
+}
+

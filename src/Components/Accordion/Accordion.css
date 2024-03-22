@@ -1,0 +1,92 @@
+.accordion {
+    max-width: 45rem;
+    margin: 0 auto;
+    padding: 5px;
+    margin-bottom: 0.5rem;
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 10px;
+    transition: box-shadow 0.3s ease;
+    /* Add transition effect for smooth hover */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.accordion:hover {
+    box-shadow: 0 8px 12px rgba(99, 99, 99, 0.2);
+    /* Apply shadow on hover */
+}
+
+.accordion button {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    text-align: left;
+    color: #ffffff;
+}
+
+.accordion .content {
+    padding: 0.5rem;
+    background: #000000;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.accordion .header-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.accordion .title {
+    font-size: 1.5rem;
+    /* Adjust the font size as needed */
+    font-weight: bold;
+    /* Optionally make the title bold */
+    margin-bottom: 5px;
+    /* Add some space between the title and subheading */
+}
+
+.accordion .subheading {
+    font-size: 1rem;
+    text-align: left;
+    color: #ffffff;
+    margin-top: 5px;
+}
+
+.accordion .investment {
+    font-size: 1rem;
+    text-align: right;
+    color: #ffffff;
+    margin-top: 0.5rem;
+}
+
+.accordion-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 70px;
+    margin-right: 30px;
+}
+.accordion .investment-revenue-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.accordion .investment,
+.accordion .revenue {
+    font-size: 1rem;
+    text-align: right;
+    color: #ffffff;
+}
+
+.accordion .investment {
+    margin-top: 5px;
+    margin-right: 10px;
+    /* Adjust as needed for spacing between investment and revenue */
+}
